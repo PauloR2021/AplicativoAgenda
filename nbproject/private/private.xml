@@ -12,8 +12,10 @@
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/paulo/OneDrive/Documentos/NetBeansProjects/AgendaDeTarefas/src/br/com/SoftwarePR/AgendaDeTarefas/InterfaceAlteracao/interfaceAlterarDadosDaTarefa.java</file>
-            <file>file:/C:/Users/paulo/OneDrive/Documentos/NetBeansProjects/AgendaDeTarefas/src/br/com/SoftwarePR/AgendaDeTarefas/Interface/interfaceCriarTarefa.java</file>
+            <file>file:/C:/Temp/Projetos%20Java/agendaDeTarefas/src/br/com/SoftwarePR/agendaDeTarefas/InterfaceLogin/interfaceLogin.java</file>
+            <file>file:/C:/Temp/Projetos%20Java/agendaDeTarefas/src/br/com/SoftwarePR/agendaDeTarefas/Interface/interfaceMenuTarefa.java</file>
+            <file>file:/C:/Temp/Projetos%20Java/agendaDeTarefas/src/br/com/SoftwarePR/agendaDeTarefas/InterfaceLogin/interfaceTrocarSenha.java</file>
+            <file>file:/C:/Temp/Projetos%20Java/agendaDeTarefas/src/br/com/SoftwarePR/agendaDeTarefas/InterfaceLogin/interfaceCadastrar.java</file>
         </group>
     </open-files>
 </project-private>

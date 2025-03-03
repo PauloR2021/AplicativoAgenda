@@ -4,6 +4,7 @@
  */
 package br.com.SoftwarePR.AgendaDeTarefas.Interface;
 
+import br.com.SoftwarePR.AgendaDeTarefas.InterfaceLogin.interfaceLogin;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 
@@ -44,6 +45,7 @@ public class interfaceMenuTarefa extends javax.swing.JFrame {
         btnDeletarTarefa = new javax.swing.JButton();
         PainelCriador = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
+        btnMenu = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("APP TAREFA");
@@ -156,26 +158,38 @@ public class interfaceMenuTarefa extends javax.swing.JFrame {
         jLabel2.setText("By: Paulo Ricardo");
         PainelCriador.add(jLabel2, "card2");
 
+        btnMenu.setBackground(new java.awt.Color(0, 102, 102));
+        btnMenu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/com/SoftwarePR/agendaDeTarefas/Icones/SairUsuario.png"))); // NOI18N
+        btnMenu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnMenuActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(PainelCriador, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addContainerGap(27, Short.MAX_VALUE)
-                        .addComponent(PainelPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)))
+                        .addGap(0, 21, Short.MAX_VALUE)
+                        .addComponent(PainelPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(PainelCriador, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnMenu))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGap(18, 18, 18)
                 .addComponent(PainelBotoes, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(168, 168, 168)
+                .addContainerGap()
+                .addComponent(btnMenu)
+                .addGap(139, 139, 139)
                 .addComponent(PainelPrincipal, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PainelCriador, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -233,6 +247,12 @@ public class interfaceMenuTarefa extends javax.swing.JFrame {
        
     }//GEN-LAST:event_btnDeletarTarefaActionPerformed
 
+    private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
+       dispose();
+       interfaceLogin login = new interfaceLogin();
+       login.setVisible(true);
+    }//GEN-LAST:event_btnMenuActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -276,6 +296,7 @@ public class interfaceMenuTarefa extends javax.swing.JFrame {
     private javax.swing.JButton btnCriarTarefa;
     private javax.swing.JButton btnDeletarTarefa;
     private javax.swing.JButton btnEditarTarefa;
+    private javax.swing.JButton btnMenu;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
