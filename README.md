@@ -11,10 +11,7 @@ Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguagu
 - SQL Server
 - GitHub  
 
-
-<div align="center">
 # Tela De Login Quando Abre o Aplicativo #
-</div>
 
 <div align="center">
 <p align="center">Tela aonde o usuário consegue fazer o login, alterar  a senha ou até criar um novo usuário</p>
@@ -65,11 +62,11 @@ Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguagu
 ## Interace de Exclusão das Tarefas ##
 
 <div align="center">
-<img width="558" alt="Image" src="https://github.com/user-attachments/assets/bc751187-2160-4c2d-905d-4539e578e880" />
+<img width="516" alt="Image" src="https://github.com/user-attachments/assets/af16922d-b3ca-4f3d-99ba-1b246d68f5b0" />
 </div>
 
 <div align="center">
-<img width="516" alt="Image" src="https://github.com/user-attachments/assets/af16922d-b3ca-4f3d-99ba-1b246d68f5b0" />
+<img width="558" alt="Image" src="https://github.com/user-attachments/assets/bc751187-2160-4c2d-905d-4539e578e880" />
 </div>
 
 
