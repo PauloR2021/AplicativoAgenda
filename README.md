@@ -5,7 +5,7 @@
 ## Descrição 
 Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguaguem java. Aonde tem como objetivo criar um gerenciador de tarefas, aonde o usuário consegue marcar se já concluiu ou não sua tarefa, colocar data de entrega e descrição sobrea a atividade 
 
-## Tecnologias Utilizadas  
+## Tecnologias Utilizadas  ##
 
 - Java 
 - SQL Server
@@ -13,7 +13,7 @@ Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguagu
 
 
 <div align="center">
-# Tela De Login Quando Abre o Aplicativo 
+# Tela De Login Quando Abre o Aplicativo #
 </div>
 
 <div align="center">
@@ -30,7 +30,25 @@ Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguagu
 </div>
 
 <div align="center">
-#Interface de Interação do Usuário como APP
+#Interface de Interação do Usuário como APP #
 </div>
+
+<div align="center">
+<img width="309" alt="Image" src="https://github.com/user-attachments/assets/434c1b04-1b8d-4017-b43d-3dce619af0c9" />
+</div>
+
+## Tela de Criação das Tarefas ##
+
+<div align="center">
+<img width="429" alt="Image" src="https://github.com/user-attachments/assets/5b5842b5-12df-4e35-94e2-f25de3424a93" />
+</div>
+
+<div align="center">
+<img width="454" alt="Image" src="https://github.com/user-attachments/assets/f073dab0-0915-47fb-8233-c3789dd4a012" />
+</div>
+
+
+
+
 
 
