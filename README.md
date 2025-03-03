@@ -3,7 +3,7 @@
 # Aplicativo Gerenciador de Tarefas em JAVA #
 
 ## Descrição 
-Projeto desenvolvido com fins de aperfeicoar os conhecimentos dentro da linguaguem java. Aonde tem como objetivo criar um gerenciador de tarefas, aonde o usuário consegue marcar se já concluiu ou não sua tarefa, colocar data de entrega e descrição sobrea a atividade 
+Este projeto foi desenvolvido com o intuito de aprimorar meus conhecimentos na linguagem Java. Nele, criei um gerenciador de tarefas que permite ao usuário marcar atividades como concluídas ou pendentes, definir datas de entrega e adicionar descrições detalhadas para cada tarefa. Essa ferramenta facilita o acompanhamento e a organização das obrigações diárias, proporcionando uma experiência prática de desenvolvimento em Java.
 
 ## Tecnologias Utilizadas  
 
